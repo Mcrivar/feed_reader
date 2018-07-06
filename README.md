@@ -5,11 +5,11 @@ In this project, you will be learning about testing with Javascript. Testing is 
 Whether you work in an organization that writes tests extensively to inform product development or one that uses tests to encourage iteration, testing has become an essential skill in modern web development!
 
 ## Table of Contents
-* [Pre requisites](#Prerequisites)
-* [Building the Project](#Buildingtheproject)
-* [Additional Dependencies](#AdditionalDependencies)
-* [Config Gulp](#ConfigGulp)
-* [Running the build](#Runningthebuild)
+* [Pre requisites](#prerequisites)
+* [Building the Project](#buildingtheproject)
+* [Additional Dependencies](#additionalDependencies)
+* [Config Gulp](#configGulp)
+* [Running the build](#runningthebuild)
 
 ## Pre requisites
 
