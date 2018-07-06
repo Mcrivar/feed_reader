@@ -7,7 +7,7 @@ Whether you work in an organization that writes tests extensively to inform prod
 ## Table of Contents
 * [Pre requisites](#pre-requisites)
 * [Building the Project](#building-the-project)
-* [Additional Dependencies](#additional-Dependencies)
+* [Additional Dependencies](#additional-dependencies)
 * [Config Gulp](#config-gulp)
 * [Running the build](#running-the-build)
 
