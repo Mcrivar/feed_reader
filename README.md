@@ -2,11 +2,11 @@
 
 
 ## Table of Contents
-* [Pre requisites](#Pre requisites)
-* [Building the Project](#Building the project)
-* [Additional Dependencies](#Additional Dependencies)
-* [Config Gulp](#Config Gulp)
-* [Running the build](#Running the build)
+* [Pre requisites](#Prerequisites)
+* [Building the Project](#Buildingtheproject)
+* [Additional Dependencies](#AdditionalDependencies)
+* [Config Gulp](#ConfigGulp)
+* [Running the build](#Runningthebuild)
 
 ## Pre requisites
 
