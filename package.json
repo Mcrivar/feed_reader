@@ -1,0 +1,24 @@
+{
+  "name": "feed_reader",
+  "version": "1.0.0",
+  "description": "Udacity feedreader project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcrivar/feed_reader.git"
+  },
+  "author": "Eddie Nazarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcrivar/feed_reader/issues"
+  },
+  "homepage": "https://github.com/mcrivar/feed_reader#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "browsersync": "0.0.1-security",
+    "gulp": "^3.9.1"
+  }
+}
