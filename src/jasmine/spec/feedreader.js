@@ -23,7 +23,7 @@ $(function() {
 			allFeeds.forEach(function(aFeed){
 				describe(`in this feed`, () => {
 					it('an name defined', () => {
-						expect(aFeed.name).not.toBe('');
+						expect(aFeed.name).toBeDefined();
 					});
 					it('and that the name is not empty', () => {
 						expect(aFeed.name.length).not.toBe(0);
@@ -38,19 +38,19 @@ $(function() {
 		var menuIcon = document.querySelector('.menu-icon-link');
 		var body = document.querySelector('body');
 		it('is hidden by default', () => {
-			expect(window.getComputedStyle(slideClassDiv).transform).toEqual("matrix(1, 0, 0, 1, -192, 0)");
-			expect(window.getComputedStyle(slideClassDiv).transition).toContain("transform 0.2s");
+            // checks if menu starts hidden
+            expect(body.classList.contains('menu-hidden')).toBe(true);
 		});
 		it('when clicked, is either displayed or hidden', () => {
 
 			// checks if menu starts hidden
-			expect(body.classList.value).toBe("menu-hidden");
+            expect(body.classList.contains('menu-hidden')).toBe(true);
 			menuIcon.click();
 			// checks if menu is opened, when clicked
-			expect(body.classList.value).toBe("");
+            expect(body.classList.contains('menu-hidden')).toBe(true);
 			menuIcon.click();
 			// checks if menu is closed again when clicked one more time
-			expect(body.classList.value).toBe("menu-hidden");
+            expect(body.classList.contains('menu-hidden')).toBe(true);
 		});
 	});
 
